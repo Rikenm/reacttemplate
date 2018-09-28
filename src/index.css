@@ -2,4 +2,44 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  padding-top: 68px; 
+}
+
+
+.navbar{
+  margin-bottom: 1 rem;
+}
+
+.navbar a {
+      font-weight: bold;
+      color:white;
+      font-size: 15px;
+}
+
+.navbar li:hover{
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+.navbar-brand > img{
+  display: inline-block;
+  width: 20px;
+  margin-right: 5px;
+  border-radius: 2px
+
+}
+
+
+.nav li{
+  margin-top: 10px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+
+.navbar {
+  /* background-color: #ED306A;  */
+  background-color: rgb(64, 59, 129);
 }

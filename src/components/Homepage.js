@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import NavBar from "../containers/navbar"
 
 
 
@@ -8,8 +9,10 @@ class Homepage extends Component {
 
         return(
                 <div>
-
-                            This is my Homepage.
+                       
+                           <NavBar/>
+                            <p>   This is my Homepage. </p>
+                         
                 </div>
 
         )
